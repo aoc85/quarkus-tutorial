@@ -6,6 +6,6 @@ import javax.enterprise.context.ApplicationScoped;
 public class GreetingService {
 
 	public String greeting(String name) {
-		return "hello ".concat(name);
+		return "hello "+ name;
 	}
 }
